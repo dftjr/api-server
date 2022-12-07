@@ -5,6 +5,7 @@ const foodSchema = (sequelize, DataTypes) => sequelize.define(
   {
     foodName: {
       type: DataTypes.STRING,
+      allowNull: false,
     },
   },
 );

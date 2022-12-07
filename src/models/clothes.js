@@ -5,6 +5,7 @@ const clothesSchema = (sequelize, DataTypes) => sequelize.define(
   {
     clothesName: {
       type: DataTypes.STRING,
+      allowNull: false,
     },
   },
 );
